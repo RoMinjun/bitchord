@@ -49,6 +49,7 @@ jobs:
         run: >-
           ./gradlew :app:testDevDebugUnitTest
           --tests 'com.music.bitchord.DetailScreenQueueTest'
+          --tests 'com.music.bitchord.QueueCoordinatorTest'
           --tests 'com.music.bitchord.playback.PartyQueueMoveTest'
           --tests 'com.music.bitchord.playback.PartyAutoplayTest'
           --no-daemon
