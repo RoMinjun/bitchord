@@ -52,6 +52,7 @@ jobs:
           --tests 'com.music.bitchord.QueueCoordinatorTest'
           --tests 'com.music.bitchord.playback.PartyQueueMoveTest'
           --tests 'com.music.bitchord.playback.PartyAutoplayTest'
+          --tests 'com.music.bitchord.playback.PartyAutomaticTransitionTest'
           --no-daemon
 
       - name: Upload test reports
